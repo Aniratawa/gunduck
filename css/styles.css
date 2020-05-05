@@ -1,0 +1,182 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+p {
+  color: gray;
+}
+
+.container-fluid {
+  padding: 7% 15% ;
+}
+
+.header {
+  margin: 0px 20px;
+  font-family: monospace-light;
+  font-size: 2rem;
+}
+
+.brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: red;
+
+}
+
+.img-iphone {
+  transform: rotate(25deg);
+  padding-top: 30px;
+  width: 270px;
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+
+button {
+  margin: 30px 20px 30px 0px;
+}
+
+.navbar {
+  padding: 0 0 15px;
+}
+
+.nav-item {
+  padding: 2.rem;
+}
+
+.icon {
+  color: #ef8172;
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.gunduck-img-1 {
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 7%;
+  margin: 0%;
+}
+
+.press-logo {
+  width: 60%;
+  margin: 20px 10px 20px;
+}
+
+#pricing {
+  padding: 7%;
+  text-align: center;
+}
+
+.card {
+  margin: 7%;
+}
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+.final-h3 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: small;
+  }
+.btn-f{
+  margin-left: 30px;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+  color: #ff4c68;
+}
+
+
+
+
+@media  (max-width: 1200px) {
+  
+  #title {
+    text-align: center;
+  }
+
+  .img-iphone {
+  position: static;
+  width: 60%; 
+  transform: rotate(0);
+  }
+  h1{
+    font-size: 2.5rem;
+
+  }
+  h2{
+    font-size: 2rem;
+  }
+  #press{
+   text-align: center;
+  }
+  .gunduck-img-1 {
+    width: 30%;
+    border-radius: 100%;
+  }
+
+  
+
+}
+
